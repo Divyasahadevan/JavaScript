@@ -1,0 +1,25 @@
+************Links to practise xpath****************
+1...https://www.icc-cricket.com/rankings/mens/team-rankings/test
+2...https://www.olympics.com
+3...https://demoqa.com/tool-tips
+
+
+iccc match********
+//table[@class='table']/tbody/tr[contains(.,'West Indies')]/td[5]
+
+
+walmart:
+
+****select option**********
+
+//span[text() = 'Apple iPhone 6s 16GB GSM Phone - Space Gray (Used) + WeCare Alcohol Wipes Pack (50 Wipes)' and @class = 'w_Dr']/ancestor::div[@class = 'h-100 pb1-xl pr4-xl pv1 ph1']/descendant::span[text() = 'Options']
+
+
+olympics xpath
+********gold medal count of athlets*********
+
+//span[text()='Teddy RINER']/ancestor::li[@class ='b2p-list__item position-relative']/descendant::span[@class='result-medal result-medal--gold']
+
+*********select dropdown arrow near to ranking*********
+svg tag:
+//div[contains(text(),'Rankings') and @class='global-navigation__link']//*[name()='svg' and @class='icon']
